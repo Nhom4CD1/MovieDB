@@ -14,6 +14,10 @@
 		052186D91ECF5802007448F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 052186D71ECF5802007448F6 /* LaunchScreen.storyboard */; };
 		052186E41ECF5802007448F6 /* NTA_MoviesDBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052186E31ECF5802007448F6 /* NTA_MoviesDBTests.swift */; };
 		052186EF1ECF5802007448F6 /* NTA_MoviesDBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052186EE1ECF5802007448F6 /* NTA_MoviesDBUITests.swift */; };
+		052186FD1ECF586F007448F6 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052186FC1ECF586F007448F6 /* Movie.swift */; };
+		052186FF1ECF58A7007448F6 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052186FE1ECF58A7007448F6 /* API.swift */; };
+		052187021ECF58E9007448F6 /* MoviesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052187011ECF58E9007448F6 /* MoviesTableViewController.swift */; };
+		052187041ECF591F007448F6 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052187031ECF591F007448F6 /* MovieDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		052186EA1ECF5802007448F6 /* NTA_MoviesDBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NTA_MoviesDBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		052186EE1ECF5802007448F6 /* NTA_MoviesDBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTA_MoviesDBUITests.swift; sourceTree = "<group>"; };
 		052186F01ECF5802007448F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		052186FC1ECF586F007448F6 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		052186FE1ECF58A7007448F6 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		052187011ECF58E9007448F6 /* MoviesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesTableViewController.swift; sourceTree = "<group>"; };
+		052187031ECF591F007448F6 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,8 @@
 				052186D51ECF5802007448F6 /* Assets.xcassets */,
 				052186D71ECF5802007448F6 /* LaunchScreen.storyboard */,
 				052186DA1ECF5802007448F6 /* Info.plist */,
+				052187001ECF58B3007448F6 /* Model */,
+				052187051ECF5925007448F6 /* Controller */,
 			);
 			path = NTA_MoviesDB;
 			sourceTree = "<group>";
@@ -123,6 +133,24 @@
 				052186F01ECF5802007448F6 /* Info.plist */,
 			);
 			path = NTA_MoviesDBUITests;
+			sourceTree = "<group>";
+		};
+		052187001ECF58B3007448F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				052186FC1ECF586F007448F6 /* Movie.swift */,
+				052186FE1ECF58A7007448F6 /* API.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		052187051ECF5925007448F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				052187011ECF58E9007448F6 /* MoviesTableViewController.swift */,
+				052187031ECF591F007448F6 /* MovieDetailViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +289,10 @@
 			files = (
 				052186D11ECF5802007448F6 /* ViewController.swift in Sources */,
 				052186CF1ECF5802007448F6 /* AppDelegate.swift in Sources */,
+				052186FF1ECF58A7007448F6 /* API.swift in Sources */,
+				052187021ECF58E9007448F6 /* MoviesTableViewController.swift in Sources */,
+				052187041ECF591F007448F6 /* MovieDetailViewController.swift in Sources */,
+				052186FD1ECF586F007448F6 /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
