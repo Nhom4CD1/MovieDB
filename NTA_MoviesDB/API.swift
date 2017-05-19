@@ -8,6 +8,6 @@
 
 import Foundation
 //chuoi api
-let API = "a6e765c7cd29c66cda27ce61d868bb7d"
+let API = "4c2715aad883ba7fc2565f8d9b35c67b"//4c2715aad883ba7fc2565f8d9b35c67b
 //url anh
 let prefixImg = "https://image.tmdb.org/t/p/w320"
